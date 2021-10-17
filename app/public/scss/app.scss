@@ -1,0 +1,8 @@
+$patchDefault: "../../../";
+$fa-font-path: "../fonts/FontAwesome/" !default;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/toastr/nuget/content/content/toastr.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "partials/partials";
+@import "pages/home";

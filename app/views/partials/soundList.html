@@ -1,0 +1,24 @@
+<div class="sounds-container overflow-auto"></div>
+
+<script>
+    $.getJSON(soundsJson, function (data) {
+        $.each(data, function (key, item) {
+            $('.sounds-container').append(`
+            <div class="component-sound d-flex justify-content-between" 
+                data-url="` + item.saveUrl + `" 
+                data-title="` + item.title +`" 
+                data-description="` + item.description + `"
+                data-image="` + item.image + `">
+                <div class="component-sound-image">
+                    <img src="` + item.image + `">
+                </div>
+                <div class="component-sound-description">
+                    <div class="component-sound-name">
+                        ` + item.title + `
+                    </div>
+                </div>
+            </div>
+            `);
+        });
+    });
+</script>

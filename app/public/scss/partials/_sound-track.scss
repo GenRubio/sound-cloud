@@ -1,0 +1,63 @@
+.active-sound {
+  padding: 10px;
+  margin-bottom: 10px;
+  .active-sound-image {
+    width: 198px;
+    height: 158px;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      object-fit: cover;
+      border-radius: 7px;
+      border: 1px solid #f7efef;
+    }
+  }
+  .active-sound-description {
+    width: calc(100% - 215px);
+
+    .active-sound-audio-container {
+      transform: translate(0, 107%);
+    }
+  }
+}
+
+.sounds-container {
+  //max-height: 428px;
+  .component-sound {
+    padding: 10px;
+    border: 1px solid #f7efef;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 100ms ease;
+    margin-bottom: 5px;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    .component-sound-image {
+      width: 95px;
+      height: 85px;
+      position: relative;
+      img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+        border-radius: 7px;
+      }
+    }
+
+    .component-sound-description {
+      width: calc(100% - 115px);
+
+      .component-sound-name {
+        font-weight: bold;
+      }
+    }
+  }
+}
