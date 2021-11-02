@@ -14,12 +14,12 @@ Tecnologías usadas:
 npm install
 ```
 
-3) Para ejecutar el electron escribimos:
+2) Para ejecutar el electron escribimos:
 ``` bash
 npm start
 ```
 
-4) Crear compilador de la app
+3) Crear compilador de la app
 ``` bash
 npm run make
 ```
