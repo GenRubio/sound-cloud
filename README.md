@@ -19,7 +19,7 @@ npm install
 npm start
 ```
 
-4)Crear compilador de la app
+4) Crear compilador de la app
 ``` bash
 npm run make
 ```
