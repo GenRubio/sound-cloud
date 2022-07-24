@@ -38,17 +38,17 @@ export const ModalSoundController = {
   },
   sendAlertSaveSound(success) {
     if (success) {
-      toastr.success("La cancion se ha añadido correctamente.");
+      toastr.success("Песня успешно добавлена.");
     } else {
-      toastr.error("Esta cancion ya esta en la lista.");
+      toastr.error("Эта песня уже есть в списке.");
     }
   },
   enableSaveSoundButton() {
-    $("#modal-sound-create").text("Save audio");
+    $("#modal-sound-create").text("Cкачивать");
     $("#modal-sound-create").prop("disabled", false);
   },
   disableSaveSoundButton() {
-    $("#modal-sound-create").text("Download...");
+    $("#modal-sound-create").text("Песня скачивается подождите...");
     $("#modal-sound-create").prop("disabled", true);
   },
   closeModal(event) {

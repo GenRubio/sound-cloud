@@ -7,8 +7,8 @@ const Helpers = require('../../helpers');
 const CreateWindowController = {
   window: {
     title: "SoundCloud",
-    width: 1128,
-    height: 736,
+    width: 982,
+    height: 600,
     resizable: true,
     backgroudColor: "#ccc",
     iconUrl: Helpers.appPath() + "/icon.ico",

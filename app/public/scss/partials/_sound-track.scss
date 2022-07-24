@@ -2,8 +2,8 @@
   padding: 10px;
   margin-bottom: 10px;
   .active-sound-image {
-    width: 198px;
-    height: 158px;
+    width: 155px;
+    height: 110px;
     position: relative;
     img {
       height: 100%;
@@ -19,8 +19,15 @@
     width: calc(100% - 215px);
 
     .active-sound-audio-container {
-      transform: translate(0, 107%);
+      transform: translate(0, 30%);
     }
+  }
+
+  .active-sound-title{
+    width: 100%;
+    overflow: overlay;
+    font-weight: bold;
+    font-size: 20px;
   }
 }
 
@@ -39,8 +46,8 @@
     }
 
     .component-sound-image {
-      width: 95px;
-      height: 85px;
+      width: 35px;
+      height: 35px;
       position: relative;
       img {
         height: 100%;
@@ -53,7 +60,7 @@
     }
 
     .component-sound-description {
-      width: calc(100% - 115px);
+      width: calc(100% - 55px);
 
       .component-sound-name {
         font-weight: bold;

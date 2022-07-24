@@ -2,7 +2,7 @@
 
 <script>
     $.getJSON(soundsJson, function (data) {
-        $.each(data, function (key, item) {
+        $.each(data.reverse(), function (key, item) {
             $('.sounds-container').append(`
             <div class="component-sound d-flex justify-content-between" 
                 data-url="` + item.saveUrl + `" 
