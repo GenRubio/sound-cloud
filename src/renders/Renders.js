@@ -1,4 +1,4 @@
-const MainWindowRender = require('../renders/MainWindowRender');
+const MainWindowRender = require('./MainWindowRender');
 
 const Renders = {
     init(){

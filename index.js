@@ -1,7 +1,7 @@
 const { app } = require("electron");
 const url = require('url')
-const Renders = require('./src/renders/Renders');
-const MainWindow = require('./src/windows/MainWindowController');
+const Renders = require('./src/Renders/Renders');
+const MainWindow = require('./src/Windows/MainWindow');
 
 if (require("electron-squirrel-startup")) {
   app.quit();
