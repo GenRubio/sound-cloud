@@ -8,7 +8,7 @@ const MainWindowRender = {
     this.setListeners();
   },
   setListeners() {
-    ipc.on("open-sound-folder", function (event, data) {
+    ipc.on("open-sound-folder", function () {
       Utils.openFolder(Helpers.appPath() + '/app/public/sounds');
     });
     ipc.on("save-youtube", function (event, data) {

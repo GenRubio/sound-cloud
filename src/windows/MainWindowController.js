@@ -6,13 +6,13 @@ const Helpers = require('../../helpers');
 
 const CreateWindowController = {
   window: {
-    title: "SoundCloud",
+    title: "Sound Cloud",
     width: 982,
     height: 600,
     resizable: true,
     backgroudColor: "#ccc",
     iconUrl: Helpers.appPath() + "/icon.ico",
-    fileUrl: Helpers.appPath() + "/app/views/layouts/app.html",
+    fileUrl: Helpers.appPath() + "/app/views/layout/app.html",
   },
   init() {
     let mainWindow = Window.init(this.window);
